@@ -12,7 +12,7 @@
 
 <br>
 
-<img src="screenshots/06_dashboard.png" width="100%" alt="Smart Metro Operations Analytics Dashboard">
+<img src="images/06_dashboard.png" width="100%" alt="Smart Metro Operations Analytics Dashboard">
 
 </div>
 
@@ -85,36 +85,36 @@ A closer look at each sheet in the workbook (dashboard shown separately below).
 <table>
 <tr>
 <td width="50%" align="center">
-<img src="screenshots/01_raw_data.png" width="100%" alt="Raw_Data sheet"><br>
+<img src="images/01_raw_data.png" width="100%" alt="Raw_Data sheet"><br>
 <sub><b>01 · Raw_Data</b></sub><br>
 <sub>Unmodified dataset — date, day type, station, recorded entries</sub>
 </td>
 <td width="50%" align="center">
-<img src="screenshots/02_analysis.png" width="100%" alt="Analysis sheet"><br>
+<img src="images/02_analysis.png" width="100%" alt="Analysis sheet"><br>
 <sub><b>02 · Analysis</b></sub><br>
 <sub>Cleaning, validation & the 10 core QUERY-based questions</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<img src="screenshots/03_pivot_tables.png" width="100%" alt="PivotTables sheet"><br>
+<img src="images/03_pivot_tables.png" width="100%" alt="PivotTables sheet"><br>
 <sub><b>03 · PivotTables</b></sub><br>
 <sub>Station, day-type & date cross-tab breakdowns</sub>
 </td>
 <td width="50%" align="center">
-<img src="screenshots/04_what_if.png" width="100%" alt="What_If sheet"><br>
+<img src="images/04_what_if.png" width="100%" alt="What_If sheet"><br>
 <sub><b>04 · What_If</b></sub><br>
 <sub>Demand scenario modeling, −30% to +50%</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
-<img src="screenshots/05_dashboard_data.png" width="100%" alt="Dashboard_Data sheet"><br>
+<img src="images/05_dashboard_data.png" width="100%" alt="Dashboard_Data sheet"><br>
 <sub><b>05 · Dashboard_Data</b></sub><br>
 <sub>Chart-ready summarized data</sub>
 </td>
 <td width="50%" align="center">
-<img src="screenshots/07_insights.png" width="100%" alt="Insights sheet"><br>
+<img src="images/07_insights.png" width="100%" alt="Insights sheet"><br>
 <sub><b>06 · Insights</b></sub><br>
 <sub>Final business takeaways & data limitations</sub>
 </td>
@@ -212,7 +212,7 @@ A simple sensitivity view of how demand shifts affect total recorded station ent
 
 ## 📊 Dashboard
 
-<img src="screenshots/06_dashboard.png" width="100%" alt="Dashboard">
+<img src="images/06_dashboard.png" width="100%" alt="Dashboard">
 
 The dashboard includes:
 
