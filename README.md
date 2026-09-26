@@ -46,12 +46,6 @@ Analyze historical metro station ridership data to identify:
 
 > ⚠️ The dataset contains **daily station-level recorded entries**, not individual passenger journeys.
 
-<details>
-<summary>📄 <strong>Preview — Raw_Data sheet</strong></summary>
-<br>
-<img src="screenshots/01_raw_data.png" width="100%" alt="Raw_Data sheet preview">
-</details>
-
 ---
 
 ## 🧭 Workflow
@@ -84,13 +78,51 @@ flowchart LR
 
 ---
 
-## ❓ Key Analysis — Sheet by Sheet
+## 📸 Sheet Gallery
+
+A closer look at each sheet in the workbook (dashboard shown separately below).
+
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="screenshots/01_raw_data.png" width="100%" alt="Raw_Data sheet"><br>
+<sub><b>01 · Raw_Data</b></sub><br>
+<sub>Unmodified dataset — date, day type, station, recorded entries</sub>
+</td>
+<td width="50%" align="center">
+<img src="screenshots/02_analysis.png" width="100%" alt="Analysis sheet"><br>
+<sub><b>02 · Analysis</b></sub><br>
+<sub>Cleaning, validation & the 10 core QUERY-based questions</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="screenshots/03_pivot_tables.png" width="100%" alt="PivotTables sheet"><br>
+<sub><b>03 · PivotTables</b></sub><br>
+<sub>Station, day-type & date cross-tab breakdowns</sub>
+</td>
+<td width="50%" align="center">
+<img src="screenshots/04_what_if.png" width="100%" alt="What_If sheet"><br>
+<sub><b>04 · What_If</b></sub><br>
+<sub>Demand scenario modeling, −30% to +50%</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="screenshots/05_dashboard_data.png" width="100%" alt="Dashboard_Data sheet"><br>
+<sub><b>05 · Dashboard_Data</b></sub><br>
+<sub>Chart-ready summarized data</sub>
+</td>
+<td width="50%" align="center">
+<img src="screenshots/07_insights.png" width="100%" alt="Insights sheet"><br>
+<sub><b>06 · Insights</b></sub><br>
+<sub>Final business takeaways & data limitations</sub>
+</td>
+</tr>
+</table>
 
 <details>
-<summary>🔍 <strong>1. Analysis sheet</strong> — cleaning, validation & the 10 core questions</summary>
-<br>
-
-<img src="screenshots/02_analysis.png" width="100%" alt="Analysis sheet preview">
+<summary>❓ <strong>See the 10 core questions answered in the Analysis sheet</strong></summary>
 
 1. Which are the top 10 busiest stations?
 2. What is the total ridership by day type?
@@ -103,36 +135,6 @@ flowchart LR
 9. Which stations have the highest average weekday ridership?
 10. How does total ridership change under different demand scenarios?
 
-</details>
-
-<details>
-<summary>📊 <strong>2. PivotTables sheet</strong> — station, day-type & date cross-tabs</summary>
-<br>
-<img src="screenshots/03_pivot_tables.png" width="100%" alt="PivotTables sheet preview">
-</details>
-
-<details>
-<summary>🎛️ <strong>3. What_If sheet</strong> — demand scenario modeling</summary>
-<br>
-<img src="screenshots/04_what_if.png" width="100%" alt="What_If sheet preview">
-</details>
-
-<details>
-<summary>📋 <strong>4. Dashboard_Data sheet</strong> — chart-ready summaries</summary>
-<br>
-<img src="screenshots/05_dashboard_data.png" width="100%" alt="Dashboard_Data sheet preview">
-</details>
-
-<details>
-<summary>📈 <strong>5. Dashboard sheet</strong> — full interactive-style view</summary>
-<br>
-<img src="screenshots/06_dashboard.png" width="100%" alt="Dashboard sheet preview">
-</details>
-
-<details>
-<summary>💡 <strong>6. Insights sheet</strong> — final business takeaways</summary>
-<br>
-<img src="screenshots/07_insights.png" width="100%" alt="Insights sheet preview">
 </details>
 
 ---
@@ -229,8 +231,6 @@ The dashboard includes:
 ---
 
 ## 💡 Key Business Insights
-
-<img src="screenshots/07_insights.png" width="100%" alt="Insights">
 
 1. **Weekdays are the primary demand period**, accounting for the largest share of recorded station entries.
 2. **A small group of major stations** accounts for substantially higher recorded ridership than many other stations.
