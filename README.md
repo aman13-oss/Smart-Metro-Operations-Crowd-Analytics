@@ -10,15 +10,15 @@
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
 [![Open Spreadsheet](https://img.shields.io/badge/Google%20Sheets-Open%20Live%20Workbook-34A853?style=flat-square&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1RLCCozK9z_OW4k69DqeB9JApvmHiHhak_RATaPKblkk/edit?usp=sharing)
 
-<br>
-
-<img src="images/06_dashboard.png" width="100%" alt="Smart Metro Operations Analytics Dashboard">
-
 </div>
 
 ---
 
 ## 📌 Project Objective
+
+📡 This is real-world data — 1.33 million+ rows sourced directly
+from the official Chicago Data Portal (CTA 'L' Station Entries Daily Totals),
+not a synthetic or sample dataset.
 
 Analyze historical metro station ridership data to identify:
 
